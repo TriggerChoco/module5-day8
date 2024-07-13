@@ -3,7 +3,20 @@ const { PrismaClient } = require("@prisma/client");
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log(`Update me to seed data`);
+  const todo = [
+    {
+      id: 1,
+      name: "Teeth brushing",
+      title: "Brush your teeth",
+      complete: false
+    },
+    {
+      id: 2,
+      name: "Get dressed",
+      title: "Get dressed",
+      complete: true
+    }
+  ]
 }
 
 main()
