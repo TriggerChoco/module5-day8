@@ -13,7 +13,7 @@ const todo = [
     id: 2,
     name: "Get dressed",
     title: "Get dressed",
-    complete: true
+    complete: false
   }
 ]
 

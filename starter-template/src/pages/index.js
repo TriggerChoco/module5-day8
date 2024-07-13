@@ -21,6 +21,7 @@ export default function Home() {
           <div key={item.id}>
             <h3>{item.title}</h3>
             <h3>{item.completed}</h3>
+            <button>Mark as complete</button>
           </div>
         )
       })}
