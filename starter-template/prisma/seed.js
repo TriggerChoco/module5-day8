@@ -19,11 +19,11 @@ const todo = [
 
 async function main() {
   console.log(`Start seeding ...`);
-  for (const m of todo) {
+  for (const t of todo) {
     const todoItem = await prisma.menu.create({
-      data: m,
+      data: t,
     });
-    console.log(`Created menu item with id: ${menuItem.id}`);
+    console.log(`Created menu item with id: ${todo.id}`);
   }
   console.log(`Seeding finished.`);
 }
